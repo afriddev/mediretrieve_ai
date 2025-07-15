@@ -1,0 +1,368 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HomeServices",
+        "importPath": "services.HomeServices",
+        "description": "services.HomeServices",
+        "isExtraImport": true,
+        "detail": "services.HomeServices",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModel",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModel",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "MessageModel",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRoleEnum",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic ",
+        "description": "pydantic ",
+        "isExtraImport": true,
+        "detail": "pydantic ",
+        "documentation": {}
+    },
+    {
+        "label": "HomeServicesImpl",
+        "importPath": "implementations.HomeServicesImpl",
+        "description": "implementations.HomeServicesImpl",
+        "isExtraImport": true,
+        "detail": "implementations.HomeServicesImpl",
+        "documentation": {}
+    },
+    {
+        "label": "callModel",
+        "importPath": "llm.llm",
+        "description": "llm.llm",
+        "isExtraImport": true,
+        "detail": "llm.llm",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "RequestValidationError",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "CustomMidlleware",
+        "importPath": "middleware",
+        "description": "middleware",
+        "isExtraImport": true,
+        "detail": "middleware",
+        "documentation": {}
+    },
+    {
+        "label": "homeControllerRouter",
+        "importPath": "controllers.HomeController",
+        "description": "controllers.HomeController",
+        "isExtraImport": true,
+        "detail": "controllers.HomeController",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPMiddleware",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "RequestResponseEndpoint",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "askQuestion",
+        "kind": 2,
+        "importPath": "controllers.HomeController",
+        "description": "controllers.HomeController",
+        "peekOfCode": "def askQuestion(question:str):\n    response = homeServices.llmAsk(question=question)\n    return response",
+        "detail": "controllers.HomeController",
+        "documentation": {}
+    },
+    {
+        "label": "homeControllerRouter",
+        "kind": 5,
+        "importPath": "controllers.HomeController",
+        "description": "controllers.HomeController",
+        "peekOfCode": "homeControllerRouter = APIRouter()\nhomeServices:HomeServices = HomeServices()\n@homeControllerRouter.get(\"/ask/{question}\")\ndef askQuestion(question:str):\n    response = homeServices.llmAsk(question=question)\n    return response",
+        "detail": "controllers.HomeController",
+        "documentation": {}
+    },
+    {
+        "label": "homeServices:HomeServices",
+        "kind": 5,
+        "importPath": "controllers.HomeController",
+        "description": "controllers.HomeController",
+        "peekOfCode": "homeServices:HomeServices = HomeServices()\n@homeControllerRouter.get(\"/ask/{question}\")\ndef askQuestion(question:str):\n    response = homeServices.llmAsk(question=question)\n    return response",
+        "detail": "controllers.HomeController",
+        "documentation": {}
+    },
+    {
+        "label": "HomeServicesImpl",
+        "kind": 6,
+        "importPath": "implementations.HomeServicesImpl",
+        "description": "implementations.HomeServicesImpl",
+        "peekOfCode": "class HomeServicesImpl(ABC):\n    @abstractmethod\n    def llmAsk(self,question:str) -> JSONResponse:\n        pass",
+        "detail": "implementations.HomeServicesImpl",
+        "documentation": {}
+    },
+    {
+        "label": "callModel",
+        "kind": 2,
+        "importPath": "llm.llm",
+        "description": "llm.llm",
+        "peekOfCode": "def callModel(model: LLMModel) -> str:\n    params: Dict[str, Any] = {\n        \"messages\": model.messages,\n        \"model\": model.model,\n        \"max_completion_tokens\": model.maxTokens,\n        \"temperature\": model.temperature,\n        \"stream\": model.stream\n    }\n    if model.jsonResponse:\n        params[\"response_format\"] = {\"type\": \"json_object\"}",
+        "detail": "llm.llm",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "llm.llm",
+        "description": "llm.llm",
+        "peekOfCode": "llm = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\ndef callModel(model: LLMModel) -> str:\n    params: Dict[str, Any] = {\n        \"messages\": model.messages,\n        \"model\": model.model,\n        \"max_completion_tokens\": model.maxTokens,\n        \"temperature\": model.temperature,\n        \"stream\": model.stream\n    }\n    if model.jsonResponse:",
+        "detail": "llm.llm",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRoleEnum",
+        "kind": 6,
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "peekOfCode": "class MessageRoleEnum(str,Enum):\n    user = \"user\"\n    system = \"system\"\nclass MessageModel(BM):\n    role: MessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[MessageModel]\n    model: str = \"llama3-70b-8192\"\n    temperature: float = 0.7",
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "MessageModel",
+        "kind": 6,
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "peekOfCode": "class MessageModel(BM):\n    role: MessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[MessageModel]\n    model: str = \"llama3-70b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False\n    jsonResponse:bool=False",
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModel",
+        "kind": 6,
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "peekOfCode": "class LLMModel(BM):\n    messages: list[MessageModel]\n    model: str = \"llama3-70b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False\n    jsonResponse:bool=False",
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "HomeServices",
+        "kind": 6,
+        "importPath": "services.HomeServices",
+        "description": "services.HomeServices",
+        "peekOfCode": "class HomeServices(HomeServicesImpl):\n    def llmAsk(self, question: str) -> JSONResponse:\n        answer = callModel(\n            LLMModel(\n                messages=[MessageModel(role=MessageRoleEnum.user, content=question)]\n            )\n        )\n        return JSONResponse(\n            status_code=200,\n            content={\"data\": {\"question\": question, \"answer\": answer}},",
+        "detail": "services.HomeServices",
+        "documentation": {}
+    },
+    {
+        "label": "mediRetrieveAi",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "mediRetrieveAi = FastAPI()\nmediRetrieveAi.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"* \"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n@mediRetrieveAi.exception_handler(RequestValidationError)\nasync def validation_exception_handler():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "CustomMidlleware",
+        "kind": 6,
+        "importPath": "middleware",
+        "description": "middleware",
+        "peekOfCode": "class CustomMidlleware(BaseHTTPMiddleware):\n    async def dispatch(self, request: Request, call_next:RequestResponseEndpoint):\n        try:\n            response = await call_next(request)\n            if response.status_code == 404:\n                return JSONResponse(\n                    status_code=404,\n                    content={\"data\": \"INVALID_URL\"},\n                )\n            return response",
+        "detail": "middleware",
+        "documentation": {}
+    }
+]
