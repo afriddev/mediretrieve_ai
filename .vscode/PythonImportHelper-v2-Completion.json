@@ -80,60 +80,60 @@
         "documentation": {}
     },
     {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "groq",
+        "detail": "pydantic",
         "documentation": {}
     },
     {
-        "label": "os",
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic ",
+        "description": "pydantic ",
+        "isExtraImport": true,
+        "detail": "pydantic ",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "LLMModel",
-        "importPath": "models.LlmModels",
-        "description": "models.LlmModels",
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "models.LlmModels",
-        "documentation": {}
-    },
-    {
-        "label": "LLMModel",
-        "importPath": "models.LlmModels",
-        "description": "models.LlmModels",
-        "isExtraImport": true,
-        "detail": "models.LlmModels",
-        "documentation": {}
-    },
-    {
-        "label": "MessageModel",
-        "importPath": "models.LlmModels",
-        "description": "models.LlmModels",
-        "isExtraImport": true,
-        "detail": "models.LlmModels",
-        "documentation": {}
-    },
-    {
-        "label": "MessageRoleEnum",
-        "importPath": "models.LlmModels",
-        "description": "models.LlmModels",
-        "isExtraImport": true,
-        "detail": "models.LlmModels",
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -161,27 +161,19 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "enum",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic ",
-        "description": "pydantic ",
-        "isExtraImport": true,
-        "detail": "pydantic ",
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -193,11 +185,76 @@
         "documentation": {}
     },
     {
-        "label": "callModel",
-        "importPath": "llm.llm",
-        "description": "llm.llm",
+        "label": "LLMMessageModel",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
         "isExtraImport": true,
-        "detail": "llm.llm",
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "LLMMessageRoleEnum",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModel",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModel",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "LlmModelServcies",
+        "importPath": "services.LlmModelServcies",
+        "description": "services.LlmModelServcies",
+        "isExtraImport": true,
+        "detail": "services.LlmModelServcies",
+        "documentation": {}
+    },
+    {
+        "label": "LlmModelServcies",
+        "importPath": "services.LlmModelServcies",
+        "description": "services.LlmModelServcies",
+        "isExtraImport": true,
+        "detail": "services.LlmModelServcies",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -239,6 +296,14 @@
         "description": "controllers.HomeController",
         "isExtraImport": true,
         "detail": "controllers.HomeController",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingServices",
+        "importPath": "services.EmbeddingServices",
+        "description": "services.EmbeddingServices",
+        "isExtraImport": true,
+        "detail": "services.EmbeddingServices",
         "documentation": {}
     },
     {
@@ -294,38 +359,20 @@
         "documentation": {}
     },
     {
-        "label": "callModel",
-        "kind": 2,
-        "importPath": "llm.llm",
-        "description": "llm.llm",
-        "peekOfCode": "def callModel(model: LLMModel) -> str:\n    params: Dict[str, Any] = {\n        \"messages\": model.messages,\n        \"model\": model.model,\n        \"max_completion_tokens\": model.maxTokens,\n        \"temperature\": model.temperature,\n        \"stream\": model.stream\n    }\n    if model.jsonResponse:\n        params[\"response_format\"] = {\"type\": \"json_object\"}",
-        "detail": "llm.llm",
-        "documentation": {}
-    },
-    {
-        "label": "llm",
-        "kind": 5,
-        "importPath": "llm.llm",
-        "description": "llm.llm",
-        "peekOfCode": "llm = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\ndef callModel(model: LLMModel) -> str:\n    params: Dict[str, Any] = {\n        \"messages\": model.messages,\n        \"model\": model.model,\n        \"max_completion_tokens\": model.maxTokens,\n        \"temperature\": model.temperature,\n        \"stream\": model.stream\n    }\n    if model.jsonResponse:",
-        "detail": "llm.llm",
-        "documentation": {}
-    },
-    {
-        "label": "MessageRoleEnum",
+        "label": "LLMMessageRoleEnum",
         "kind": 6,
         "importPath": "models.LlmModels",
         "description": "models.LlmModels",
-        "peekOfCode": "class MessageRoleEnum(str,Enum):\n    user = \"user\"\n    system = \"system\"\nclass MessageModel(BM):\n    role: MessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[MessageModel]\n    model: str = \"llama3-70b-8192\"\n    temperature: float = 0.7",
+        "peekOfCode": "class LLMMessageRoleEnum(str,Enum):\n    user = \"user\"\n    system = \"system\"\nclass LLMMessageModel(BM):\n    role: LLMMessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    model: str = \"llama3-8b-8192\"",
         "detail": "models.LlmModels",
         "documentation": {}
     },
     {
-        "label": "MessageModel",
+        "label": "LLMMessageModel",
         "kind": 6,
         "importPath": "models.LlmModels",
         "description": "models.LlmModels",
-        "peekOfCode": "class MessageModel(BM):\n    role: MessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[MessageModel]\n    model: str = \"llama3-70b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False\n    jsonResponse:bool=False",
+        "peekOfCode": "class LLMMessageModel(BM):\n    role: LLMMessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    model: str = \"llama3-8b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False",
         "detail": "models.LlmModels",
         "documentation": {}
     },
@@ -334,8 +381,17 @@
         "kind": 6,
         "importPath": "models.LlmModels",
         "description": "models.LlmModels",
-        "peekOfCode": "class LLMModel(BM):\n    messages: list[MessageModel]\n    model: str = \"llama3-70b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False\n    jsonResponse:bool=False",
+        "peekOfCode": "class LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    model: str = \"llama3-8b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False\n    jsonResponse:bool=False",
         "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingServices",
+        "kind": 6,
+        "importPath": "services.EmbeddingServices",
+        "description": "services.EmbeddingServices",
+        "peekOfCode": "class EmbeddingServices:\n    model = cast(Any, SentenceTransformer(\"mixedbread-ai/mxbai-embed-large-v1\"))\n    @staticmethod\n    def convertTextToVector( text: str) -> list[float]:\n        vecotr = np.array(EmbeddingServices.model.encode(text)).reshape(1, -1)\n        return vecotr[0].astype(float).tolist()\n    @staticmethod\n    def convertObjectToVectors(\n         data: dict[str, Any]\n    ) -> dict[str, None | str | list[float]]:",
+        "detail": "services.EmbeddingServices",
         "documentation": {}
     },
     {
@@ -343,8 +399,17 @@
         "kind": 6,
         "importPath": "services.HomeServices",
         "description": "services.HomeServices",
-        "peekOfCode": "class HomeServices(HomeServicesImpl):\n    def llmAsk(self, question: str) -> JSONResponse:\n        answer = callModel(\n            LLMModel(\n                messages=[MessageModel(role=MessageRoleEnum.user, content=question)]\n            )\n        )\n        return JSONResponse(\n            status_code=200,\n            content={\"data\": {\"question\": question, \"answer\": answer}},",
+        "peekOfCode": "class HomeServices(HomeServicesImpl):\n    def llmAsk(self, question: str) -> JSONResponse:\n        answer = LlmModelServcies.callModel(\n            LLMModel(\n                messages=[\n                    LLMMessageModel(role=LLMMessageRoleEnum.user, content=question)\n                ]\n            )\n        )\n        return JSONResponse(",
         "detail": "services.HomeServices",
+        "documentation": {}
+    },
+    {
+        "label": "LlmModelServcies",
+        "kind": 6,
+        "importPath": "services.LlmModelServcies",
+        "description": "services.LlmModelServcies",
+        "peekOfCode": "class LlmModelServcies:\n    llm = cast(Any, Groq(api_key=os.getenv(\"GROQ_API_KEY\")))\n    @staticmethod\n    def callModel( model: LLMModel) -> str:\n        params: Dict[str, Any] = {\n            \"messages\": model.messages,\n            \"model\": model.model,\n            \"max_completion_tokens\": model.maxTokens,\n            \"temperature\": model.temperature,\n            \"stream\": model.stream,",
+        "detail": "services.LlmModelServcies",
         "documentation": {}
     },
     {
