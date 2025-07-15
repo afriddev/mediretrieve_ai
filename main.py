@@ -7,6 +7,7 @@ from middleware import CustomMidlleware
 from controllers.HomeController import homeControllerRouter
 from services.LlmModelServcies import LlmModelServcies
 from services.EmbeddingServices import EmbeddingServices
+from db.PgDb import PgDb
 
 mediRetrieveAi = FastAPI()
 
@@ -32,6 +33,7 @@ async def validation_exception_handler():
 
 llmModelServices: LlmModelServcies = LlmModelServcies()
 embeddingServices: EmbeddingServices = EmbeddingServices()
+PgDb("postgresql://postgres:password@localhost:5432/test")
 
 mediRetrieveAi.add_middleware(CustomMidlleware)
 mediRetrieveAi.include_router(homeControllerRouter, prefix="/api/internal")

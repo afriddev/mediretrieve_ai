@@ -356,6 +356,14 @@
         "documentation": {}
     },
     {
+        "label": "PgDb",
+        "importPath": "db.PgDb",
+        "description": "db.PgDb",
+        "isExtraImport": true,
+        "detail": "db.PgDb",
+        "documentation": {}
+    },
+    {
         "label": "BaseHTTPMiddleware",
         "importPath": "starlette.middleware.base",
         "description": "starlette.middleware.base",
