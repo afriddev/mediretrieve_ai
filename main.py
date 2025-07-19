@@ -5,8 +5,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from middleware import CustomMidlleware
 from controllers.HomeController import homeControllerRouter
-from services.LlmModelServcies import LlmModelServcies
-from services.EmbeddingServices import EmbeddingServices
+from utils.LlmModelServcies import LlmModelServcies
 from db.PgDb import PgDb
 
 mediRetrieveAi = FastAPI()
@@ -32,11 +31,12 @@ async def validation_exception_handler():
 
 
 llmModelServices: LlmModelServcies = LlmModelServcies()
-embeddingServices: EmbeddingServices = EmbeddingServices()
+llmModelServices.extarctMedicalSchemeJson()
+
 PgDb("postgresql://postgres:password@localhost:5432/test")
 
 mediRetrieveAi.add_middleware(CustomMidlleware)
 mediRetrieveAi.include_router(homeControllerRouter, prefix="/api/internal")
 
 if __name__ == "__main__":
-    uvicorn.run("main:mediRetrieveAi", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:mediRetrieveAi", host="0.0.0.0", port=8000, reload=False)

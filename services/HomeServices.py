@@ -1,7 +1,7 @@
 from implementations.HomeServicesImpl import HomeServicesImpl
 from fastapi.responses import JSONResponse
 from models.LlmModels import LLMMessageModel, LLMMessageRoleEnum, LLMModel
-from services.LlmModelServcies import LlmModelServcies
+from utils.LlmModelServcies import LlmModelServcies
 
 
 class HomeServices(HomeServicesImpl):

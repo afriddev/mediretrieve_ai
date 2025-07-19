@@ -5,8 +5,9 @@ fastapi
 uvicorn
 typing
 sentence_transformers
-sklearn
+scikit-learn
 numpy
 pymongo
 asyncio
 asyncpg
+PyMuPDF

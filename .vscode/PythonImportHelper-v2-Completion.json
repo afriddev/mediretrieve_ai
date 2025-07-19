@@ -209,23 +209,6 @@
         "documentation": {}
     },
     {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
         "label": "HomeServicesImpl",
         "importPath": "implementations.HomeServicesImpl",
         "description": "implementations.HomeServicesImpl",
@@ -258,6 +241,22 @@
         "documentation": {}
     },
     {
+        "label": "LLMMessageModel",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
+        "label": "LLMMessageRoleEnum",
+        "importPath": "models.LlmModels",
+        "description": "models.LlmModels",
+        "isExtraImport": true,
+        "detail": "models.LlmModels",
+        "documentation": {}
+    },
+    {
         "label": "LLMModel",
         "importPath": "models.LlmModels",
         "description": "models.LlmModels",
@@ -267,18 +266,52 @@
     },
     {
         "label": "LlmModelServcies",
-        "importPath": "services.LlmModelServcies",
-        "description": "services.LlmModelServcies",
+        "importPath": "utils.LlmModelServcies",
+        "description": "utils.LlmModelServcies",
         "isExtraImport": true,
-        "detail": "services.LlmModelServcies",
+        "detail": "utils.LlmModelServcies",
         "documentation": {}
     },
     {
         "label": "LlmModelServcies",
-        "importPath": "services.LlmModelServcies",
-        "description": "services.LlmModelServcies",
+        "importPath": "utils.LlmModelServcies",
+        "description": "utils.LlmModelServcies",
         "isExtraImport": true,
-        "detail": "services.LlmModelServcies",
+        "detail": "utils.LlmModelServcies",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
         "documentation": {}
     },
     {
@@ -304,6 +337,14 @@
         "description": "dotenv",
         "isExtraImport": true,
         "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingServices",
+        "importPath": "utils.EmbeddingServices",
+        "description": "utils.EmbeddingServices",
+        "isExtraImport": true,
+        "detail": "utils.EmbeddingServices",
         "documentation": {}
     },
     {
@@ -345,14 +386,6 @@
         "description": "controllers.HomeController",
         "isExtraImport": true,
         "detail": "controllers.HomeController",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingServices",
-        "importPath": "services.EmbeddingServices",
-        "description": "services.EmbeddingServices",
-        "isExtraImport": true,
-        "detail": "services.EmbeddingServices",
         "documentation": {}
     },
     {
@@ -438,7 +471,7 @@
         "kind": 6,
         "importPath": "models.LlmModels",
         "description": "models.LlmModels",
-        "peekOfCode": "class LLMMessageRoleEnum(str,Enum):\n    user = \"user\"\n    system = \"system\"\nclass LLMMessageModel(BM):\n    role: LLMMessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    model: str = \"llama3-8b-8192\"",
+        "peekOfCode": "class LLMMessageRoleEnum(str,Enum):\n    user = \"user\"\n    system = \"system\"\nclass LLMMessageModel(BM):\n    role: LLMMessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    # model: str = \"llama3-8b-8192\"",
         "detail": "models.LlmModels",
         "documentation": {}
     },
@@ -447,7 +480,7 @@
         "kind": 6,
         "importPath": "models.LlmModels",
         "description": "models.LlmModels",
-        "peekOfCode": "class LLMMessageModel(BM):\n    role: LLMMessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    model: str = \"llama3-8b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False",
+        "peekOfCode": "class LLMMessageModel(BM):\n    role: LLMMessageRoleEnum\n    content:str\nclass LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    # model: str = \"llama3-8b-8192\"\n    model: str = \"mistral-saba-24b\"\n    temperature: float = 0.7\n    maxTokens:int = 4000",
         "detail": "models.LlmModels",
         "documentation": {}
     },
@@ -456,17 +489,8 @@
         "kind": 6,
         "importPath": "models.LlmModels",
         "description": "models.LlmModels",
-        "peekOfCode": "class LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    model: str = \"llama3-8b-8192\"\n    temperature: float = 0.7\n    maxTokens:int = 1024\n    stream:bool=False\n    jsonResponse:bool=False",
+        "peekOfCode": "class LLMModel(BM):\n    messages: list[LLMMessageModel]\n    # model: str = \"llama3-70b-8192\"\n    # model: str = \"llama3-8b-8192\"\n    model: str = \"mistral-saba-24b\"\n    temperature: float = 0.7\n    maxTokens:int = 4000\n    stream:bool=False\n    jsonResponse:bool=False",
         "detail": "models.LlmModels",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingServices",
-        "kind": 6,
-        "importPath": "services.EmbeddingServices",
-        "description": "services.EmbeddingServices",
-        "peekOfCode": "class EmbeddingServices:\n    model = cast(Any, SentenceTransformer(\"mixedbread-ai/mxbai-embed-large-v1\"))\n    @staticmethod\n    def convertTextToVector( text: str) -> list[float]:\n        vecotr = np.array(EmbeddingServices.model.encode(text)).reshape(1, -1)\n        return vecotr[0].astype(float).tolist()\n    @staticmethod\n    def convertObjectToVectors(\n         data: dict[str, Any]\n    ) -> dict[str, None | str | list[float]]:",
-        "detail": "services.EmbeddingServices",
         "documentation": {}
     },
     {
@@ -479,12 +503,21 @@
         "documentation": {}
     },
     {
+        "label": "EmbeddingServices",
+        "kind": 6,
+        "importPath": "utils.EmbeddingServices",
+        "description": "utils.EmbeddingServices",
+        "peekOfCode": "class EmbeddingServices:\n    model: Any = {}\n    temp: dict[str, dict[str, Any]] = {}\n    def __init__(self):\n        self.model = cast(\n            Any, SentenceTransformer(\"mixedbread-ai/mxbai-embed-large-v1\")\n        )\n        self.temp = {\"data\": {}, \"vectors\": {}, \"other\": {}}\n    def convertTextsToVector(self, texts: list[str]) -> list[float]:\n        vectors = self.model.encode(",
+        "detail": "utils.EmbeddingServices",
+        "documentation": {}
+    },
+    {
         "label": "LlmModelServcies",
         "kind": 6,
-        "importPath": "services.LlmModelServcies",
-        "description": "services.LlmModelServcies",
-        "peekOfCode": "class LlmModelServcies:\n    llm = cast(Any, Groq(api_key=os.getenv(\"GROQ_API_KEY\")))\n    @staticmethod\n    def callModel( model: LLMModel) -> str:\n        params: Dict[str, Any] = {\n            \"messages\": model.messages,\n            \"model\": model.model,\n            \"max_completion_tokens\": model.maxTokens,\n            \"temperature\": model.temperature,\n            \"stream\": model.stream,",
-        "detail": "services.LlmModelServcies",
+        "importPath": "utils.LlmModelServcies",
+        "description": "utils.LlmModelServcies",
+        "peekOfCode": "class LlmModelServcies(EmbeddingServices):\n    def __init__(self):\n        super().__init__()\n        self.llm = cast(Any, Groq(api_key=os.getenv(\"GROQ_API_KEY\")))\n    def callModel(self, model: LLMModel) -> str:\n        params: Dict[str, Any] = {\n            \"messages\": [msg.model_dump(mode=\"json\") for msg in model.messages],\n            \"model\": model.model,\n            \"max_completion_tokens\": model.maxTokens,\n            \"temperature\": model.temperature,",
+        "detail": "utils.LlmModelServcies",
         "documentation": {}
     },
     {
