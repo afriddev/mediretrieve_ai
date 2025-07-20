@@ -47,6 +47,10 @@ class EmbeddingServices:
 
             return self.temp
 
+    def convertArrayOfObjectsToVectors(self, data: list[dict[str, Any]]):
+        temp = [value for obj in data for value in obj.values()]
+        return self.convertTextsToVector(texts=temp)
+
     def extarctTextFromPdfFile(self) -> str:
         # import base64
         # from io import BytesIO
